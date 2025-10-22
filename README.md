@@ -69,7 +69,7 @@ _MG.X2["U_D_U", "global"] := (*) => MsgBox("Complex chain")
 
 
 ## **Getting Started**
-Download the source code, unzip, and right click 'MouseGestures Example' to open in an editor. This will let you view the gestures/change them. The dependences listed below are in the folder relative to the 'MouseGestures Examples.ahk' file, so you should be able to double click it test out the gestures. 
+Download the source code, unzip, and right click 'MouseGestures.ahk' to open in an editor. This will let you view the gestures/change them. The dependences listed below are in the folder relative to the 'MouseGestures.ahk' file, so you should be able to double click it test out the gestures. 
 **Required Files:**
 ```ahk
 #Requires AutoHotkey v2.0
