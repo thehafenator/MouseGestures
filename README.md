@@ -7,7 +7,7 @@
 I use this class, `_MG`, to create mouse gestures for quick window management and program-specific shortcuts.  
 Hold a mouse button (Right, Left, Middle, or extra buttons) and draw a direction to trigger an action.  
 
-This is similar to my 8bitdo script, which supports **context-specific mappings with global fallbacks**, so you don't need to rewrite common gestures for every program. If my OnWebsite.ahk class and Descolada's UIA uia library are included, you can also write **website-specific** mouse gestures.
+This is similar to my 8bitdo script, which supports **context-specific mappings with global fallbacks**, so you don't need to rewrite common gestures for every program. If my script OnWebsite.ahk and Descolada's UIA  library are included, you can also write **website-specific** mouse gestures.
 
 **Key Features:**
 - 8-directional gestures: Up, Down, Left, Right, and diagonals (UL, UR, DL, DR)  
