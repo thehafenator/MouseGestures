@@ -4,6 +4,7 @@
 #Include Monitor Manager.ahk
 #Include OnWebsite.ahk ; uncomment for website-specific support, though it does require OnWebsite.ahk (On class) and Descolada's UIA library
 #Include UIA\Lib\UIA.ahk
+#Include UIA\Lib\UIA_Browser.ahk
 
 ; My defaults for mouse gestures:
 ; "R" here is right button, "UL" means upper left corner, and "gobal" will default to run everywhere, unless another _MG.R["UL"] is defined in a specific context (and we are in that context)
@@ -53,3 +54,4 @@ _MG.R["R", "ahk_class #32770"] := (*) => bwe({ LocalizedType: "split button", Na
 _MG.R["R", "studio.youtube.com"] := (*) => youtube.studio.insert()
 _MG.R["R", "youtube.com"] := (*) => youtube.skipadd()
 */
+
